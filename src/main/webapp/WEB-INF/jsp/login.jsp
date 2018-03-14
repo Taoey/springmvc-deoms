@@ -7,16 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% 
-String pageName="index";
-pageContext.setAttribute("pageName", pageName);
 
-%>
-
-<a href="${ pageName }/login">跳转到登录页面</a>
-
-
-
-
+This is login page !!!
 </body>
 </html>
