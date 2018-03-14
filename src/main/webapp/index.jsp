@@ -12,11 +12,10 @@ String pageName="index";
 pageContext.setAttribute("pageName", pageName);
 
 %>
-
-<a href="${ pageName }/login">跳转到登录页面</a>
-
-
-
+<ul>
+	<li><a href="${ pageName }/login">跳转到登录页面</a></li>
+	<li><a href="${ pageName }/html1">跳转到html1</a></li>
+</ul>
 
 </body>
 </html>
