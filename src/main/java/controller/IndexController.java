@@ -16,7 +16,7 @@ public class IndexController {
 	@RequestMapping("/login")
 	public String login() {
 		//do something
-		return "login";
+		return "/login";
 	}
 	/**
 	 * 重定向到html1
